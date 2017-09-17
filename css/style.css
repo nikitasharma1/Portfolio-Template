@@ -12,7 +12,7 @@
 
 
 body {
-	padding: 2%;
+	padding: 4%;
 }
 
 
@@ -23,6 +23,13 @@ body {
 
 
 /* Header and Footer */
+hr {
+	border: none;
+    height: 3px;
+    background-color: #7d97ad;
+}
+
+
 .header-heading-div,
 .footer-project-div,
 a {
@@ -114,6 +121,11 @@ a {
 
 @media screen and (min-width: 500px) and (max-width: 599px) {
 
+	hr {
+		height: 2px;
+	}
+
+
 	.logo {
 		height: 80px;
 		width: 80px;
@@ -138,6 +150,11 @@ a {
 
 
 @media screen and (max-width: 499px) {
+
+	hr {
+		height: 1.5px;
+	}
+
 
 	.logo {
 		height: 75px;
