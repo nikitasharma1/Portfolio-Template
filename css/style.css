@@ -76,13 +76,24 @@ a {
 
 @media screen and (min-width: 800px) and (max-width: 990px) {
 
+	.logo {
+		height: 95px;
+		width: 95px;
+	}
+
 	.header-heading-div h1 {
 		font-size: 45px;
 	}
 }
 
 
-@media screen and (min-width: 600px) and (max-width: 990px) {
+@media screen and (min-width: 600px) and (max-width: 799px) {
+
+	.logo {
+		height: 90px;
+		width: 90px;
+	}
+
 
 	.header-heading-div h1 {
 		font-size: 40px;
@@ -103,6 +114,12 @@ a {
 
 @media screen and (min-width: 500px) and (max-width: 599px) {
 
+	.logo {
+		height: 80px;
+		width: 80px;
+	}
+
+
 	.header-heading-div h1 {
 		font-size: 35px;
 	}
@@ -121,6 +138,11 @@ a {
 
 
 @media screen and (max-width: 499px) {
+
+	.logo {
+		height: 75px;
+		width: 75px;
+	}
 
 	.header-heading-div h1 {
 		font-size: 32px;
