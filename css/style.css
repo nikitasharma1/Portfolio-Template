@@ -15,6 +15,10 @@ body {
 	padding: 4%;
 }
 
+a {
+	padding: 35px 15px;
+}
+
 
 /* Common Styles */
 .width-fill {
@@ -22,11 +26,22 @@ body {
 }
 
 
+.hand {
+	cursor: pointer;
+}
+
+
 /* Header and Footer */
-hr {
+header hr {
 	border: none;
     height: 3px;
     background-color: #7d97ad;
+}
+
+
+footer hr {
+	margin: 40px 0;
+	border: 1px #ccc dotted;
 }
 
 
@@ -65,6 +80,16 @@ a {
 }
 
 
+.fa {
+	opacity: 0.25;
+}
+
+
+.fa:hover {
+	opacity: 0.8;
+}
+
+
 /* Main */
 .main-cover-img {
 	max-height: 450px;
@@ -77,8 +102,15 @@ a {
 	.header-logo-div,
 	.header-heading-div h1,
 	.header-heading-div h4,
-	.footer-heading-div h2 {
+	.footer-heading-div h2,
+	.glyphicons {
 		text-align: center;
+	}
+
+
+	.fa {
+		font-size: 1.5em !important;
+		opacity: 0.8;
 	}
 }
 
@@ -123,7 +155,7 @@ a {
 
 @media screen and (min-width: 500px) and (max-width: 599px) {
 
-	hr {
+	header hr {
 		height: 2px;
 	}
 
@@ -153,7 +185,7 @@ a {
 
 @media screen and (max-width: 499px) {
 
-	hr {
+	header hr {
 		height: 1.5px;
 	}
 
@@ -176,5 +208,10 @@ a {
 	.header-heading-div h4,
 	.footer-project-div h3 {
 		font-size: 16px;
+	}
+
+
+	.fa {
+		font-size: 1.2em !important;
 	}
 }
