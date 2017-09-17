@@ -18,7 +18,7 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 		<!-- Custom JS -->
 		<script src="js/script.js"></script>
-		<!-- Fontawesome embed script -->
+		<!-- Fontawesome library -->
 		<script src="https://use.fontawesome.com/5c89209c1d.js"></script>
 		<!-- For IE8 (and earlier) -->
 	    <!--[if lt IE 9]>
@@ -27,76 +27,73 @@
 	    <![endif]-->
 	</head>
 	<body>
-		<!-- Header -->
-		<header>
-			<div class="container">
-				<div class="row">
-					<!-- logo -->
-					<div class="col-md-6 header-logo-div">
-						<img class="logo" src="images/placeimg_100_100_nature.jpg" alt="logo name"/>
-					</div>
-					<!-- heading -->
-					<div class="col-md-6 header-heading-div">
-						<h1 class="text-right text-uppercase">Jane Doette</h1>
-						<h4 class="text-right text-uppercase">Front-end Ninja</h4>
-					</div>
+		<div class="container">
+			<!-- Header -->
+			<header class="row">
+				<!-- logo -->
+				<div class="col-md-6 header-logo-div">
+					<img class="logo" src="images/placeimg_100_100_nature.jpg" alt="logo name">
 				</div>
-				<hr/>
-			</div>
-		</header>
-		<!-- Main -->
-		<main>
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<img class="img-responsive width-fill main-cover-img" src="images/placeimg_1000_450_nature.jpg" alt="main-cover-img"/>
-					</div>
-				</div>
-			</div>
-		</main>
-		<!-- Footer -->
-		<footer>
-			<div class="container">
+
 				<!-- heading -->
-				<div class="row">
-					<div class="col-md-12 footer-heading-div">
-						<h2 class="text-muted footer-heading">Featured Work</h2>
-					</div>
+				<div class="col-md-6 header-heading-div">
+					<h1 class="text-right text-uppercase">Jane Doette</h1>
+					<h4 class="text-right text-uppercase">Front-end Ninja</h4>
 				</div>
+
+				<div class="col-md-12">
+					<hr class="header-hr">
+				</div>
+			</header>
+
+			<!-- Main -->
+			<main class="row">
+				<div class="col-md-12">
+					<img class="img-responsive width-fill main-cover-img" src="images/placeimg_1000_450_nature.jpg" alt="main-cover-img">
+				</div>
+
+				<!-- heading -->
+				<div class="col-md-12 footer-heading-div">
+					<h2 class="text-muted footer-heading">Featured Work</h2>
+				</div>
+
 				<!-- projects -->
-				<div class="row">
-					<div class="col-md-4 footer-project-div">
-						<img class="img-responsive width-fill project-img" src="images/placeimg_600_200_nature_1.jpg" alt="project1">
-						<h3 class="text-center text-uppercase">Project1</h3>
-						<p class="text-center"><a class="project-link" href="#" target="_blank">link</a></p>
-					</div>
-					<div class="col-md-4 footer-project-div">
-						<img class="img-responsive width-fill project-img" src="images/placeimg_600_200_nature_2.jpg" alt="project2">
-						<h3 class="text-center text-uppercase">Project2</h3>
-						<p class="text-center"><a class="project-link" href="#" target="_blank">link</a></p>
-					</div>
-					<div class="col-md-4 footer-project-div">
-						<img class="img-responsive width-fill project-img" src="images/placeimg_600_200_nature_3.jpg" alt="project3">
-						<h3 class="text-center text-uppercase">Project3</h3>
-						<p class="text-center"><a class="project-link" href="#" target="_blank">link</a></p>
-					</div>
-					<!-- TODO: add other projects -->
+				<div class="col-md-4 footer-project-div">
+					<img class="img-responsive width-fill project-img" src="images/placeimg_600_200_nature_1.jpg" alt="project1">
+					<h3 class="text-center text-uppercase">Project1</h3>
+					<p class="text-center"><a class="project-link" href="#" target="_blank">link</a></p>
 				</div>
-			</div>
-			<!-- social media icons -->
-			<div class="container">
-				<hr/>
-				<div class="row">
-					<div class="col-md-12">
-						<p class="text-right glyphicons">
-							<a href="#" target="_blank"><span class="fa fa-linkedin fa-2x hand"></span></a>
-							<a href="#" target="_blank"><span class="fa fa-github fa-2x hand"></span></a>
-							<a href="#" target="_blank"><span class="fa fa-stack-overflow fa-2x hand"></span></a>
-							<a href="#" target="_blank"><span class="fa fa-codepen fa-2x hand"></span></a>
-						</p>
-					</div>
+
+				<div class="col-md-4 footer-project-div">
+					<img class="img-responsive width-fill project-img" src="images/placeimg_600_200_nature_2.jpg" alt="project2">
+					<h3 class="text-center text-uppercase">Project2</h3>
+					<p class="text-center"><a class="project-link" href="#" target="_blank">link</a></p>
 				</div>
-			</div>
-		</footer>
+
+				<div class="col-md-4 footer-project-div">
+					<img class="img-responsive width-fill project-img" src="images/placeimg_600_200_nature_3.jpg" alt="project3">
+					<h3 class="text-center text-uppercase">Project3</h3>
+					<p class="text-center"><a class="project-link" href="#" target="_blank">link</a></p>
+				</div>
+
+				<!-- TODO: add other projects -->
+			</main>
+
+			<footer class="row">
+				<div class="col-md-12">
+					<hr class="footer-hr">
+				</div>
+
+				<!-- social media icons -->
+				<div class="col-md-12">
+					<p class="text-right glyphicons">
+						<a href="#" target="_blank"><span class="fa fa-linkedin fa-2x hand"></span></a>
+						<a href="#" target="_blank"><span class="fa fa-github fa-2x hand"></span></a>
+						<a href="#" target="_blank"><span class="fa fa-stack-overflow fa-2x hand"></span></a>
+						<a href="#" target="_blank"><span class="fa fa-codepen fa-2x hand"></span></a>
+					</p>
+				</div>
+			</footer>
+		</div>
 	</body>
 </html>

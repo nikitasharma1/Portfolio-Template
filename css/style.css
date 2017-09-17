@@ -7,7 +7,7 @@
 
 
 * {
-	font-family: 'Lato', sans-serif;
+	font-family: "Lato", sans-serif;
 }
 
 
@@ -32,14 +32,14 @@ a {
 
 
 /* Header and Footer */
-header hr {
+.header-hr {
 	border: none;
     height: 3px;
     background-color: #7d97ad;
 }
 
 
-footer hr {
+.footer-hr {
 	margin: 40px 0;
 	border: 1px #ccc dotted;
 }
@@ -155,7 +155,7 @@ a {
 
 @media screen and (min-width: 500px) and (max-width: 599px) {
 
-	header hr {
+	.header-hr {
 		height: 2px;
 	}
 
@@ -185,7 +185,7 @@ a {
 
 @media screen and (max-width: 499px) {
 
-	header hr {
+	.header-hr {
 		height: 1.5px;
 	}
 
