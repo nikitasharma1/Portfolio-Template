@@ -2,7 +2,7 @@
 
 ## Get started
 
-- Clone the repository on the local machine, and switch to branch **include-updates-1**
+- Clone the repository on the local machine
 
 ```
 $ git clone https://github.com/nikitasharma1/Portfolio-Template.git
