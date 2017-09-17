@@ -66,7 +66,9 @@ a {
 
 
 /* Main */
-
+.main-cover-img {
+	max-height: 450px;
+}
 
 
 /* Media Queries: Header and Footer */
