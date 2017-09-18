@@ -5,11 +5,9 @@
 	box-sizing: border-box;
 }
 
-
 * {
 	font-family: "Lato", sans-serif;
 }
-
 
 body {
 	padding: 4%;
@@ -19,17 +17,14 @@ a {
 	padding: 35px 15px;
 }
 
-
 /* Common Styles */
 .width-fill {
 	width: 100%;
 }
 
-
 .hand {
 	cursor: pointer;
 }
-
 
 /* Header and Footer */
 .header-hr {
@@ -38,12 +33,10 @@ a {
     background-color: #7d97ad;
 }
 
-
 .footer-hr {
 	margin: 40px 0;
 	border: 1px #ccc dotted;
 }
-
 
 .header-heading-div,
 .footer-project-div,
@@ -51,22 +44,18 @@ a {
 	color: #2d3c49;
 }
 
-
 .text-muted {
 	color: #7d97ad;
 }
-
 
 .header-heading-div h1 {
 	font-weight: 300;
 	font-size: 50px;
 }
 
-
 .header-heading-div h4 {
 	font-size: 20px;
 }
-
 
 .header-heading-div h4,
 .footer-heading-div h2,
@@ -74,27 +63,22 @@ a {
 	font-weight: 700;
 }
 
-
 .project-link {
 	font-weight: 400;
 }
-
 
 .fa {
 	opacity: 0.25;
 }
 
-
 .fa:hover {
 	opacity: 0.8;
 }
-
 
 /* Main */
 .main-cover-img {
 	max-height: 450px;
 }
-
 
 /* Media Queries: Header and Footer */
 @media screen and (max-width: 991px) {
@@ -107,13 +91,11 @@ a {
 		text-align: center;
 	}
 
-
 	.fa {
 		font-size: 1.5em !important;
 		opacity: 0.8;
 	}
 }
-
 
 @media screen and (min-width: 800px) and (max-width: 990px) {
 
@@ -127,7 +109,6 @@ a {
 	}
 }
 
-
 @media screen and (min-width: 600px) and (max-width: 799px) {
 
 	.logo {
@@ -135,16 +116,13 @@ a {
 		width: 90px;
 	}
 
-
 	.header-heading-div h1 {
 		font-size: 40px;
 	}
 
-
 	.footer-heading-div h2 {
 		font-size: 25px;
 	}
-
 
 	.header-heading-div h4,
 	.footer-project-div h3 {
@@ -152,29 +130,24 @@ a {
 	}
 }
 
-
 @media screen and (min-width: 500px) and (max-width: 599px) {
 
 	.header-hr {
 		height: 2px;
 	}
 
-
 	.logo {
 		height: 80px;
 		width: 80px;
 	}
 
-
 	.header-heading-div h1 {
 		font-size: 35px;
 	}
 
-
 	.footer-heading-div h2 {
 		font-size: 22px;
 	}
-
 
 	.header-heading-div h4,
 	.footer-project-div h3 {
@@ -189,7 +162,6 @@ a {
 		height: 1.5px;
 	}
 
-
 	.logo {
 		height: 75px;
 		width: 75px;
@@ -199,17 +171,14 @@ a {
 		font-size: 32px;
 	}
 
-
 	.footer-heading-div h2 {
 		font-size: 20px;
 	}
-
 
 	.header-heading-div h4,
 	.footer-project-div h3 {
 		font-size: 16px;
 	}
-
 
 	.fa {
 		font-size: 1.2em !important;
