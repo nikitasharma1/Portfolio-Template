@@ -1,1 +1,39 @@
 /* TODO: add print queries */
+
+@media print {
+
+	*::after,
+	*::before,
+	footer,
+	a {
+		display: none;
+		width: 0;
+		height: 0;
+	}
+
+	body {
+		padding: 5%;
+	}
+
+	header {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.col-md-6 {
+		width: 50%;
+	}
+
+	/* Bug fix:
+	Browser: Chrome
+	Issue: Chrome used to render only first page,
+	not the entire content
+	in the print preview.
+
+	Though it would render rest of the content on small screen size,
+	probably because of some bootstrap grid restrictions for different column sizes*/
+	.col-md-4 {
+		width: 100%;
+	}
+
+}
