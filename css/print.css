@@ -24,6 +24,11 @@
 		width: 50%;
 	}
 
+	img,
+	.col-md-4 {
+	    page-break-inside: avoid;
+	}
+
 	/* Bug fix:
 	Browser: Chrome
 	Issue: Chrome used to render only first page,
